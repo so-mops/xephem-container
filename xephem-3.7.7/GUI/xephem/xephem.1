@@ -1,0 +1,152 @@
+XEphem(1X)                                                          XEphem(1X)
+
+
+
+NNaammee
+       XEphem 3.7 - an interactive astronomical ephemeris for X11
+
+SSyynnttaaxx
+       xxeepphheemm  [[--pprrffbb]]  [[--iinnssttaallll  {{yyeess||nnoo||gguueessss}}]]  [[--rreessffiillee  <<rreessoouurrcceeffiillee>>]]
+       [[--[[nnoo]]ssppllaasshh]]
+
+DDeessccrriippttiioonn
+       XEphem is an interactive astronomical ephemeris program for the X
+       Window System.  It provides many graphical views as well as
+       quantitative heliocentric, geocentric and topocentric information for
+       Earth satellites, solar system and celestial objects.
+
+       XEphem primarily uses two directories at runtime. One is referred to as
+       the Shared directory, the other as the Private directory. Shared is
+       read-only and holds supporting files that can be shared among all users
+       on a system. Private is writable and one is expected to exist for each
+       user. See the section below on X Resources for more information about
+       defining these directories.
+
+       XEphem contains extensive context-sensitive on-line help. Virtually
+       none of that help is duplicated here so go ahead and run XEphem to
+       learn more. The first thing to do once XEphem is up is configure the
+       browser interface. All of XEphem help is written in html and stored in
+       a file named xephem.html. The first entry in the Help menu brings up a
+       table of browsers and defines a command for each that will invoke the
+       browser and pass it the URL and anchor of the text to display. XEphem
+       comes configured to support several different browsers. If yours is
+       listed, just click the button to its left and your help system should
+       be working. If your browser is not listed, please check the FAQ for the
+       latest news.
+
+       Note that if you are running XEphem under cygwin on Windows, before
+       starting XEphem set an environment variable XEHELPURL to the full path
+       of the xephem.html file on your system using Windows path syntax (not
+       cygwin paths).  This file is in the _h_e_l_p directory within the source
+       directory of the master distribution.  After this is in the place, run
+       xephem and it can use MS IE to display help.
+
+       The XEphem _M_a_i_n _w_i_n_d_o_w is the master panel for setting up observing
+       circumstances, time looping, and for accessing all the additional tools
+       and displays.  Observing circumstances includes location, date, time,
+       local magnetic deviation and atmospheric conditions (used for the
+       refraction model).  Looping provides the ability to set up XEphem so
+       that it automatically increments time at a desired step size and rate.
+       Additional displays provide all of the graphical and quantitative
+       information available, which are always computed with respect to the
+       circumstances defined in the Main menu. Tools provide access to
+       plotting, searching, AAVSO and much more.
+
+
+CCoommmmaanndd lliinnee OOppttiioonnss
+       --pprrffbb displays all the built-in default resources, then exits. Some of
+       them are described here.
+
+       --iinnssttaallll controls whether XEphem will install a private colormap.
+       Without this option XEphem will try to decide automatically whether it
+       is necessary. To force using a private colormap, use _-_i_n_s_t_a_l_l _y_e_s_.  To
+       prevent it, use _-_i_n_s_t_a_l_l _n_o_.  The default automatic behavior is
+       equivalent to _-_i_n_s_t_a_l_l _g_u_e_s_s_.
+
+       --rreessffiillee <<rreessoouurrcceeffiillee>> tells XEphem to use an alternate file for
+       initial resource settings. See below for the default situation.
+
+       --ssppllaasshh or --nnoossppllaasshh controls whether XEphem will display a progress
+       window front and center while it is coming up. The choice is yours
+       because this can be a useful sign of life on a slow system, or be the
+       source of an annoying flash on a fast system. The setting is persistent
+       so it will remain until changed.
+
+
+MMeennuu TToouurr
+       FFiillee
+
+       This menu controls access to the System log; setting up network access;
+       accessing the gallery; displaying a progress meter; controlling time
+       and location information remotely; and keyboard accelerators for time
+       stepping.
+
+       VViieeww
+
+       This menu offers several graphical displays if the Sun, Earth, Moon and
+       several planets; a user configurable data table; and Sky and Solar
+       System views.
+
+       TToooollss
+
+       This menu gives access to tools which can plot any XEphem data items;
+       save any data items to text files for easy export to other programs;
+       enter an arbitrary function to evaluate and solve using any XEphem data
+       items; access AAVSO online; show the Night at a glance; find close
+       pairs of objects; convert among various astonomical coordinate systems;
+       and a handy log for taking observing notes.
+
+       DDaattaa
+
+       This menu gives control over which objects XEphem will work with.
+       Objects may be created on the fly, read from catalog files, downloaded
+       from the Internet, deleted or searched. A special category of objects
+       known as _F_i_e_l_d _S_t_a_r_s may be configured, which are very large catalogs
+       of objects whose access has been optimized. Any number of _F_a_v_o_r_i_t_e
+       objects may be defined for especially easy access in several other
+       places throughout XEphem.
+
+       PPrreeffeerreenncceess
+
+       This menu offers several configuration choices and tools for changing
+       fonts and colors used throughout XEphem.  These choices can be changed
+       at runtime and saved to disk to become the new defaults.
+
+       HHeellpp
+
+       This menu offers overall information about XEphem; context sensitive
+       help; references; version number and the Copyright statement.
+
+
+XX RReessoouurrcceess
+       When first started, XEphem looks for a file named ..xxeepphheemmrrcc in your
+       $HOME directory. It should contain one line of the form:
+
+       XEphem.PrivateDir: ~/.xephem
+
+       This defines the Private directory, where XEphem will store your
+       personal settings. The example line shown here, which is also the
+       assumption if the file is not present, means XEphem will create and use
+       a directory named ..xxeepphheemm for this purpose in your home directory.
+
+       Within this directory a text file named XXEEpphheemm will contain all the
+       Preferences that differ from those built in. One important entry
+       defines the Shared directory. This is in intended for multi-user
+       installations. XEphem looks here for support files. Unless defined
+       otherwise, the Shared directory is ".", that is, the current directory.
+
+
+AAuutthhoorr
+       Elwood C. Downey, email ecdowney@ClearSkyInstitute.com.
+
+
+RReeffeerreenncceess
+       The Web homepage, including the FAQ, is maintained at
+       _h_t_t_p_:_/_/_w_w_w_._c_l_e_a_r_s_k_y_i_n_s_t_i_t_u_t_e_._c_o_m_/_x_e_p_h_e_m
+
+       The online Help entry _o_n _C_r_e_d_i_t_s lists many of the references,
+       individuals and organizations which have contributed to XEphem.
+
+
+
+                                                                    XEphem(1X)

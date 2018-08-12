@@ -1,0 +1,93 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  account-plugin-facebook account-plugin-flickr account-plugin-google
+  app-install-data apt-transport-https espeak-data ethtool
+  evolution-data-server-online-accounts extra-xdg-menus fonts-font-awesome
+  fonts-mathjax fonts-stix gcc-5-base:i386 gcc-6-base:i386 gcj-5-jre-lib
+  hardening-includes hwdata ipython-notebook-common libaccount-plugin-1.0-0
+  libaccount-plugin-generic-oauth libaccount-plugin-google libaccounts-qt5-1
+  libandroid-properties1 libapparmor-perl libappstream3 libasound2:i386
+  libass5 libasyncns0:i386 libavcodec-ffmpeg56 libavfilter-ffmpeg5
+  libavformat-ffmpeg56 libavresample-ffmpeg2 libavutil-ffmpeg54
+  libbabeltrace-ctf1 libbind9-140 libblas-common libblas-dev libbluray1
+  libboost-atomic1.58.0 libboost-context1.58.0 libboost-coroutine1.58.0
+  libboost-date-time1.58.0 libboost-graph1.58.0 libboost-iostreams1.58.0
+  libboost-locale1.58.0 libboost-log1.58.0 libboost-math1.58.0
+  libboost-python1.58.0 libboost-random1.58.0 libboost-serialization1.58.0
+  libboost-signals1.58.0 libboost-test1.58.0 libboost-timer1.58.0
+  libboost-wave1.58.0 libbrotli1 libcamel-1.2-54 libcapnp-0.5.3 libcapnp-0.6.1
+  libcdio-cdda1 libcdio-paranoia1 libcdio13 libcfitsio2 libcgmanager0
+  libchromaprint0 libcolamd2.9.1 libconfig-file-perl libdata-alias-perl
+  libdns162 libebook-1.2-16 libedataserver-1.2-21 libedataserverui-1.2-1
+  libespeak1 libevent-2.0-5 libfcitx-gclient0 libflac8:i386
+  libfreerdp-cache1.1 libfreerdp-client1.1 libfreerdp-codec1.1
+  libfreerdp-common1.1.0 libfreerdp-core1.1 libfreerdp-crypto1.1
+  libfreerdp-gdi1.1 libfreerdp-locale1.1 libfreerdp-plugins-standard
+  libfreerdp-primitives1.1 libfreerdp-utils1.1 libfwupd1 libgcj-common
+  libgcj16 libgcr-3-common libgdbm3 libglade2-0 libglew1.13 libgmime-2.6-0
+  libgnome-desktop-3-12 libgom-1.0-common libgps22 libgrilo-0.2-1 libgtkglext1
+  libgtkspell3-3-0 libgweather-3-6 libhardware2 libhud2 libhunspell-1.3-0
+  libhybris libhybris-common1 libical1a libidn11:i386 libisc160 libisccc140
+  libisccfg140 libjasper-dev libjasper1 libjna-java libjna-jni libjs-excanvas
+  libjs-highlight libjs-highlight.js libjs-marked libjs-mathjax
+  libjson-c2:i386 libkadm5clnt-mit9 libkf5bookmarks-data libkf5bookmarks5
+  libkf5gpgmepp5 libkf5kiofilewidgets5 liblircclient0 libllvm3.8
+  libllvm3.8:i386 libllvm5.0 libllvm5.0:i386 liblouis9 liblouisutdml6
+  liblua5.1-0 liblwres141 libmedia1 libmimic0 libmirclient-dev libmirclient9
+  libmircommon-dev libmircommon7 libmircookie-dev libmircookie2 libmircore-dev
+  libmircore1 libmirprotobuf3 libmpfr4 libnm-gtk-common libnma-common
+  libnova-0.14-0 libopencv-calib3d2.4v5 libopencv-contrib2.4v5
+  libopencv-core2.4v5 libopencv-features2d2.4v5 libopencv-flann2.4v5
+  libopencv-highgui2.4v5 libopencv-imgproc2.4v5 libopencv-legacy2.4v5
+  libopencv-ml2.4v5 libopencv-objdetect2.4v5 libopencv-video2.4v5 libopenjpeg5
+  liborcus-0.10-0v5 libp11-kit-gnome-keyring libpackagekit-glib2-16
+  libpng12-0:i386 libpoppler58 libpostproc-ffmpeg53 libprotobuf-dev
+  libprotobuf-lite9v5 libprotobuf9v5 libpulse0:i386 libpython3.5
+  libpython3.5-dev libqmi-glib1 libqpdf17 libqt5clucene5 libqt5feedback5
+  libqt5organizer5 libqt5quicktest5 libqt5sensors5 libqt5webchannel5
+  libqt5webkit5 libquvi-scripts libquvi7 libraw15 libreoffice-gtk
+  libreoffice-gtk2 librhythmbox-core9 libruby2.3 librxtx-java
+  libsamplerate0:i386 libschroedinger-1.0-0 libsignon-extension1
+  libsignon-plugins-common1 libsignon-qt5-1 libsndfile1:i386 libsodium18
+  libspeexdsp1:i386 libsrtp0 libssl-dev libssl-doc libsuitesparseconfig4.4.6
+  libswresample-ffmpeg1 libswscale-ffmpeg3 libtbb2 libtomcrypt0 libtommath0
+  libtracker-sparql-1.0-0 libtxc-dxtn-s2tc0 libtxc-dxtn-s2tc0:i386
+  libunibilium0 libunistring0 libunity-action-qt1 libva1 libvpx3 libwcstools0
+  libwebp5 libwebpmux1 libwebrtc-audio-processing-0 libwildmidi1
+  libwinpr-crt0.1 libwinpr-dsparse0.1 libwinpr-environment0.1 libwinpr-file0.1
+  libwinpr-handle0.1 libwinpr-heap0.1 libwinpr-input0.1
+  libwinpr-interlocked0.1 libwinpr-library0.1 libwinpr-path0.1
+  libwinpr-pool0.1 libwinpr-registry0.1 libwinpr-rpc0.1 libwinpr-sspi0.1
+  libwinpr-synch0.1 libwinpr-sysinfo0.1 libwinpr-thread0.1 libwinpr-utils0.1
+  libwoff1 libwrap0:i386 libx264-148 libx265-79 libx86-1 libxapian22v5
+  libxfont1 lua-lpeg nettle-dev ntpdate oxideqt-codecs-extra pigz
+  plainbox-provider-checkbox plainbox-provider-resource-generic
+  plainbox-secure-policy pm-utils pyotherside python-ecdsa python-glade2
+  python-gpgme python-imaging python-jinja2 python-mako python-markupsafe
+  python-pymysql python-scour python-zmq python3-checkbox-support
+  python3-guacamole python3-jinja2 python3-padme python3-plainbox
+  python3-pyasn1 python3-pycurl python3-pyparsing python3-xlsxwriter
+  python3.5-dev qml-module-io-thp-pyotherside
+  qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings
+  qml-module-qtfeedback qml-module-qttest qml-module-ubuntu-onlineaccounts
+  qml-module-ubuntu-performancemetrics qmlscene qtdeclarative5-accounts-plugin
+  qtdeclarative5-dev-tools qtdeclarative5-qtquick2-plugin
+  qtdeclarative5-test-plugin qtdeclarative5-unity-action-plugin rename ruby2.3
+  ruby2.3-dev signon-keyring-extension signon-plugin-oauth2
+  signon-plugin-password signon-ui signon-ui-service signon-ui-x11 signond
+  snap-confine snapd-login-service suru-icon-theme tcl-xmlrpc
+  ubuntu-core-launcher ubuntu-mobile-icons ubuntu-ui-toolkit-theme
+  unity-control-center-signon unity-scope-gdrive unixodbc vbetool
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  x11proto-print-dev
+0 upgraded, 1 newly installed, 0 to remove and 247 not upgraded.
+Need to get 0 B/10.7 kB of archives.
+After this operation, 92.2 kB of additional disk space will be used.
+Selecting previously unselected package x11proto-print-dev.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 312832 files and directories currently installed.)
+Preparing to unpack .../x11proto-print-dev_1.0.5-2_all.deb ...
+Unpacking x11proto-print-dev (1.0.5-2) ...
+Setting up x11proto-print-dev (1.0.5-2) ...
