@@ -5,6 +5,9 @@ ADD ./xephem-3.7.7 /src/xephem
 
 COPY xdebs/*.deb /debs/
 
+RUN apt -y update
+RUN apt -y install openssh-server
+RUN apt -y install x11-apps
 RUN dpkg -i /debs/multiarch-support_2.19-0ubuntu6.14_amd64.deb && \
 	dpkg -i /debs/xorg-sgml-doctools_1.11-1_all.deb && \	
 	dpkg -i /debs/libxdmcp6_1.1.1-1_amd64.deb && \
@@ -57,6 +60,8 @@ RUN dpkg -i /debs/multiarch-support_2.19-0ubuntu6.14_amd64.deb && \
 	dpkg -i /debs/libxm4_2.3.4-5_amd64.deb 
 
 
+RUN mkdir /var/run/sshd
+RUN useradd -ms /bin/bash observer
 
 EXPOSE 7624
-CMD echo XEphem.PrivateDir: ${XEHOME} >  /root/.xephemrc && cd src/xephem/GUI/xephem && ./xephem
+CMD echo XEphem.PrivateDir: ${XEHOME} >  /root/.xephemrc && cp /home/vattobs/.xephem/catalogs/*.edb src/xephem/GUI/xephem/catalogs && cd src/xephem/GUI/xephem && ./xephem
